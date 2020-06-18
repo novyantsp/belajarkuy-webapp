@@ -7,7 +7,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-7">
                 <div class="card bg-secondary shadow border-0">
-                    <div class="card-header bg-transparent pb-5">
+                    <!--<div class="card-header bg-transparent pb-5">
                         <div class="text-muted text-center mt-2 mb-3"><small>{{ __('Sign in with') }}</small></div>
                         <div class="btn-wrapper text-center">
                             <a href="#" class="btn btn-neutral btn-icon">
@@ -19,9 +19,9 @@
                                 <span class="btn-inner--text">{{ __('Google') }}</span>
                             </a>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="card-body px-lg-5 py-lg-5">
-                        <div class="text-center text-muted mb-4">
+                        <!--<div class="text-center text-muted mb-4">
                             <small>
                                 <a href="{{ route('register') }}">{{ __('Create new account') }}</a> {{ __('OR Sign in with these credentials:') }}
                             </small>
@@ -30,7 +30,7 @@
                                 {{ __('Username') }} <strong>admin@argon.com</strong>
                                 {{ __('Password') }} <strong>secret</strong>
                             </small>
-                        </div>
+                        </div>-->
                         <form role="form" method="POST" action="{{ route('login') }}">
                             @csrf
 
