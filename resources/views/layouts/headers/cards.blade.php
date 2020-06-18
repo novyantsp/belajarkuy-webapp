@@ -72,7 +72,7 @@
                             <div class="row">
                                 <div class="col">
                                     <h5 class="card-title text-uppercase text-muted mb-0">Performance</h5>
-                                    <span class="h2 font-weight-bold mb-0">{{ $course_details->where('iscomplete', '1')->count() == 0 ? 0 round(($course_details->where('iscomplete', '1')->count() / $course_details->count()*100),2) }}%</span>
+                                    <span class="h2 font-weight-bold mb-0">{{ round($course_details->where('iscomplete', '1')->count() == 0 ? 0 ($course_details->where('iscomplete', '1')->count() / $course_details->count()*100),2) }}%</span>
                                 </div>
                                 <div class="col-auto">
                                     <div class="icon icon-shape bg-info text-white rounded-circle shadow">
