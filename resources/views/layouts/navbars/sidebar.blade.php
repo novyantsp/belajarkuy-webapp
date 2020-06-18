@@ -105,26 +105,26 @@
             </ul>
             <!-- Divider -->
             <hr class="my-3">
-            <!-- Heading
+            <!-- Heading -->
             <h6 class="navbar-heading text-muted">Documentation</h6>
-            <-- Navigation --
+            <!-- Navigation -->
             <ul class="navbar-nav mb-md-3">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/getting-started/overview.html">
+                    <a class="nav-link" href="google.com">
                         <i class="ni ni-spaceship"></i> Getting started
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/foundation/colors.html">
-                        <i class="ni ni-palette"></i> Foundation
+                    <a class="nav-link" href="google.com">
+                        <i class="ni ni-palette"></i> How To
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://demos.creative-tim.com/argon-dashboard/docs/components/alerts.html">
-                        <i class="ni ni-ui-04"></i> Components
+                    <a class="nav-link" href="google.com">
+                        <i class="ni ni-ui-04"></i> Apps
                     </a>
                 </li>
-            </ul>-->
+            </ul>
         </div>
     </div>
 </nav>

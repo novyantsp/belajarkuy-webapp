@@ -9,7 +9,7 @@
     <div class="col-xl-6">
         <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-                <a href="https://www.belajarkuy.com" class="nav-link" target="_blank">Belajarkuy</a>
+                <a href="https://www.belajarkuy.com" class="nav-link" target="_blank">BelajarKuy!</a>
             </li>
             <li class="nav-item">
                 <a href="https://www.google.com" class="nav-link" target="_blank">About Us</a>
