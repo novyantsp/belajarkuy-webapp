@@ -40,6 +40,16 @@
                                         </span>
                                     @endif
                                 </div>
+                                <div class="form-group{{ $errors->has('image') ? ' has-danger' : '' }}">
+                                    <label class="form-control-label" for="input-image">{{ __('Image URL') }}</label>
+                                    <input type="text" name="image" id="input-image" class="form-control form-control-alternative{{ $errors->has('image') ? ' is-invalid' : '' }}" placeholder="{{ __('Image URL') }}" value="{{ $course->image }}" required autofocus>
+
+                                    @if ($errors->has('image'))
+                                        <span class="invalid-feedback" role="alert">
+                                            <strong>{{ $errors->first('image') }}</strong>
+                                        </span>
+                                    @endif
+                                </div>
                                 <div class="form-group">
                                     <label class="form-control-label" for="input-desc">{{ __('Description') }}</label>
                                     <textarea type="text" name="desc" id="input-desc" class="form-control form-control-alternative{{ $errors->has('desc') ? ' is-invalid' : '' }}" rows="4" required autofocus>{{ $course->desc }}</textarea>
