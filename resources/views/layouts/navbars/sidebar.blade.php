@@ -110,17 +110,17 @@
             <!-- Navigation -->
             <ul class="navbar-nav mb-md-3">
                 <li class="nav-item">
-                    <a class="nav-link" href="google.com">
+                    <a class="nav-link" href="https://www.belajarkuy.com">
                         <i class="ni ni-spaceship"></i> Getting started
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="google.com">
+                    <a class="nav-link" href="https://www.belajarkuy.com">
                         <i class="ni ni-palette"></i> How To
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="google.com">
+                    <a class="nav-link" href="https://www.belajarkuy.com">
                         <i class="ni ni-ui-04"></i> Apps
                     </a>
                 </li>
