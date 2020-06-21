@@ -19,6 +19,7 @@ class CourseDetailCollection extends JsonResource
             'title' => $this->title,
             'description' => $this->desc,
             'video' => $this->videoURL,
+            'duration' => $this->time,
             'iscomplete' => $this->iscomplete,
             'href' => [
                 'detail-list-course' => route('list-course.show', [$this->course_id, $this->id]),

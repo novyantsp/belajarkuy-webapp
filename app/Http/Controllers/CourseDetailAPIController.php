@@ -89,8 +89,8 @@ class CourseDetailAPIController extends Controller
         if ($list_course->save()) {
             return response()->json([
                 'success' => true,
-                'data'    => $list_course
-            ], 404);
+                'data' => $list_course,
+            ], 200);
         } else {
             return response()->json([
                 'success' => false,

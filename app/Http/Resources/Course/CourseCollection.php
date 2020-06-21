@@ -19,6 +19,7 @@ class CourseCollection extends JsonResource
             'title' => $this->title,
             'description' => $this->desc,
             'imageURL' => $this->image,
+            'count_content' => count($this->course_details),
             'href' => [
                 'course-detail' => route('api.courses.show', $this->id),
             ],

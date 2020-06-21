@@ -19,7 +19,7 @@ class CreateCourseDetailsTable extends Migration
             $table->string('time');
             $table->string('videoURL');
             $table->longText('desc');
-            $table->enum('iscomplete', ['0', '1'])->default('0');
+            $table->boolean('iscomplete')->default('0');
             $table->foreignId('course_id');
             $table->foreign('course_id')->references('id')->on('courses')
 
